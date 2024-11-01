@@ -1,0 +1,42 @@
+#tmp-login-form{}
+.tmp-login-widget-form{}
+.message{ 
+	background:#dcefff; 
+	margin-bottom: 1em;
+    padding: 1em;
+    color: #6bb6ff;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.tmp-error-msg,.login_error{
+    background: #ffebeb;
+    margin-bottom: 1em;
+    padding: 1em;
+    color: #ff8376;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.tmp-error-msg p,.login_error p,.tmp-pw-reset-widget-form div.message p{ margin-bottom: 0;}
+.tmp-login-form-inner{}
+.tmp-mail-label,.tmp-password-label{ margin-top: 0.5em; }
+.tmp-mail-input input,.tmp-password-input input,.tmp-pw-reset-email-input input{
+	display: block;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 14px;
+    padding: 0 12px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    background-color: #eaedf2;
+    box-shadow: none;
+    color: #5c6b80;
+    font-size: 1em;
+    vertical-align: middle;
+    line-height: 45px;
+    transition: background-color .24s ease-in-out;
+}
+label.tmp-rember-label{ font-weight: 100; font-size:0.9em;}
+.tmp-pw-reset-email-input{ margin-bottom: 1em; }
+.tmp-login-form-pw-reset-link{ font-size:0.9em; }
+.tmp-login-submit,.tmp-pw-reset-submit-button{ text-align: center; margin-bottom: 0.5em;}
+#tmp-login-form-pw-reset-box{ text-align: center; }
